@@ -20,7 +20,7 @@ class_ws2812 = ws2812(ws2812_io_number, 1)  # Assuming you have 1 LED
 def turn_on_led():
     # Set all LEDs to red, for example
     for j in range(100):
-        class_ws2812.set_led(j, (255, 0, 0))
+        class_ws2812.set_led(j, (255, 0, 0)) # if you want one led replace with     class_ws2812.set_led(0, (255, 0, 0))
     class_ws2812.display()
 
 def turn_off_led():
