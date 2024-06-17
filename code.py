@@ -15,7 +15,7 @@ button = GPIO(GPIO.GPIOHS0, GPIO.IN, GPIO.PULL_UP)
 
 # Initialize WS2812 LED
 fm.register(ws2812_io_number)
-class_ws2812 = ws2812(ws2812_io_number, 1)  # Assuming you have 1 LEDs
+class_ws2812 = ws2812(ws2812_io_number, 1)  # Assuming you have 1 LED
 
 def turn_on_led():
     # Set all LEDs to red, for example
