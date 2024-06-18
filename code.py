@@ -1,3 +1,6 @@
+#Written by Yousef Shaykholeslam
+#18/6/2024
+
 from Maix import GPIO
 from fpioa_manager import fm
 import time
